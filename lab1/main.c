@@ -3,25 +3,13 @@
 #include <ctype.h>
 
 int isVowel(char c) {
-    switch (c) {
-        case 'a':
-        case 'e':
-        case 'i':
-        case 'o':
-        case 'u':
-        case 'A':
-        case 'E':
-        case 'I':
-        case 'O':
-        case 'U':
-            return 1; // Якщо це голосна, повертаємо 1
-        default:
-            return 0; // Якщо це не голосна, повертаємо 0
-    }
+    static const char vowels[] = "aeiouAEIOU";
+    char *ptr = strchr(vowels, c);
+    return (ptr != NULL);
 }
 
 int main() {
-    FILE *inputFile = fopen("/Users/nataliiagricisin/Desktop/System Programming/lab1/input2.txt", "r");
+    FILE *inputFile = fopen("/Users/nataliiagricisin/Desktop/System Programming/lab1/input3.txt", "r");
     if (inputFile == NULL) {
         fprintf(stderr, "Unable to open input file\n");
         return 1;
@@ -34,7 +22,7 @@ int main() {
 
     char c;
     while ((c = fgetc(inputFile)) != EOF) {
-        if (isalpha(c)) {
+        if (isalpha((unsigned char)c)) {
             if (!readingWord) {
                 readingWord = 1;
                 memset(word, 0, sizeof(word)); // Очистити слово
