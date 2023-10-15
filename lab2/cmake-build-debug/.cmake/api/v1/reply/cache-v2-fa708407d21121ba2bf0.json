@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/nataliiagricisin/Desktop/System Programming/lab2/cmake-build-debug"
+			"value" : "/Users/nataliiagricisin/Desktop/System Programming/lab2cpp/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -140,6 +140,102 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "/Applications/CLion.app/Contents/bin/cmake/mac/bin/ctest"
+		},
+		{
+			"name" : "CMAKE_CXX_COMPILER",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "CXX compiler"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/Library/Developer/CommandLineTools/usr/bin/c++"
+		},
+		{
+			"name" : "CMAKE_CXX_FLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the CXX compiler during all build types."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_CXX_FLAGS_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the CXX compiler during DEBUG builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "-g"
+		},
+		{
+			"name" : "CMAKE_CXX_FLAGS_MINSIZEREL",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the CXX compiler during MINSIZEREL builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "-Os -DNDEBUG"
+		},
+		{
+			"name" : "CMAKE_CXX_FLAGS_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the CXX compiler during RELEASE builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "-O3 -DNDEBUG"
+		},
+		{
+			"name" : "CMAKE_CXX_FLAGS_RELWITHDEBINFO",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the CXX compiler during RELWITHDEBINFO builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "-O2 -g -DNDEBUG"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER",
@@ -383,7 +479,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/nataliiagricisin/Desktop/System Programming/lab2/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "/Users/nataliiagricisin/Desktop/System Programming/lab2cpp/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -443,7 +539,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/nataliiagricisin/Desktop/System Programming/lab2"
+			"value" : "/Users/nataliiagricisin/Desktop/System Programming/lab2cpp"
 		},
 		{
 			"name" : "CMAKE_INSTALL_NAME_TOOL",
@@ -723,7 +819,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "lab2"
+			"value" : "lab2cpp"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1006,7 +1102,7 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "lab2_BINARY_DIR",
+			"name" : "lab2cpp_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1015,10 +1111,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/nataliiagricisin/Desktop/System Programming/lab2/cmake-build-debug"
+			"value" : "/Users/nataliiagricisin/Desktop/System Programming/lab2cpp/cmake-build-debug"
 		},
 		{
-			"name" : "lab2_IS_TOP_LEVEL",
+			"name" : "lab2cpp_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1030,7 +1126,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "lab2_SOURCE_DIR",
+			"name" : "lab2cpp_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1039,7 +1135,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/nataliiagricisin/Desktop/System Programming/lab2"
+			"value" : "/Users/nataliiagricisin/Desktop/System Programming/lab2cpp"
 		}
 	],
 	"kind" : "cache",

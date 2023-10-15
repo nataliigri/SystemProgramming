@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "lab2"
+			"path" : "lab2cpp"
 		}
 	],
 	"backtrace" : 1,
@@ -35,17 +35,17 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -std=gnu11 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics"
+					"fragment" : "-g -std=gnu++17 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics"
 				}
 			],
-			"language" : "C",
+			"language" : "CXX",
 			"languageStandard" : 
 			{
 				"backtraces" : 
 				[
 					1
 				],
-				"standard" : "11"
+				"standard" : "17"
 			},
 			"sourceIndexes" : 
 			[
@@ -53,7 +53,7 @@
 			]
 		}
 	],
-	"id" : "lab2::@6890427a1f51a3e7e1df",
+	"id" : "lab2cpp::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -67,10 +67,10 @@
 				"role" : "flags"
 			}
 		],
-		"language" : "C"
+		"language" : "CXX"
 	},
-	"name" : "lab2",
-	"nameOnDisk" : "lab2",
+	"name" : "lab2cpp",
+	"nameOnDisk" : "lab2cpp",
 	"paths" : 
 	{
 		"build" : ".",
@@ -91,7 +91,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "main.c",
+			"path" : "main.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
